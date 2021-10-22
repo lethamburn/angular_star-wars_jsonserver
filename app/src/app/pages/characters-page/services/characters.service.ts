@@ -5,11 +5,11 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class CharactersService {
-  private URL: string = "http://localhost:3000/characters"
+  public CHARACTERSURL: string = "http://localhost:3000/characters";
   constructor(private httpClient: HttpClient) { }
 
   public getAllCharacters() {
-    return this.httpClient.get(this.URL)
+    return this.httpClient.get(this.CHARACTERSURL)
   }
 
   getCharacter = (idCharacter: any) => {

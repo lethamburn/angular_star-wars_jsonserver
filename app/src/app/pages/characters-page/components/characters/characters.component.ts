@@ -20,6 +20,7 @@ export class CharactersComponent implements OnInit {
         id, name, origin, role, image, family
       }));
       this.characters = formattedCharacters;
+      
     })
   }
 

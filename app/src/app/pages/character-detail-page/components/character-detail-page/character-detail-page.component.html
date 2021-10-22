@@ -1,9 +1,16 @@
 <div *ngIf="character" class="character-container">
-    <div class="character-container__card">
-      <h2 >{{ character.name }}</h2>
-      <img src="{{character.image}}" alt="{{character.name}}">
-      <p><span>Origin: </span>{{ character.origin }}</p>
-      <p><span>Role: </span> {{ character.role }}</p> 
-      <p><span>Family: </span>{{ character.family }}</p> 
+  <div class="character-container__card">
+    <h2>{{ character.name }}</h2>
+    <img src="{{ character.image }}" alt="{{ character.name }}" />
+    <p><span>Origin: </span>{{ character.origin }}</p>
+    <p><span>Role: </span> {{ character.role }}</p>
+    <div *ngIf="character.family">
+    <p><span>Family:</span></p>
+      <ul *ngFor="let member of character.family">
+        <li>
+          {{ member.name }} - <span>{{ member.member }}</span>
+        </li>
+      </ul>
     </div>
   </div>
+</div>

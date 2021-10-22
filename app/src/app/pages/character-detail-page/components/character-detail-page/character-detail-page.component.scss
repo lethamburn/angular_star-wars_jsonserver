@@ -38,5 +38,11 @@
     span{
         color: $secondary-color;
     }
+   
+    li{
+      padding: 8px;
+        margin: 8px;
+      color: $crawl;
+    }
   }
 }

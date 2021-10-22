@@ -17,11 +17,17 @@ h5 {
     text-align: center;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   &__card {
     border: solid 2px $blue;
     border-radius: 10px;
     margin: 20px;
+    height: 210px;
+    @include desktop {
+      width: 20%;
+      height: 200px;
+    }
     h6 {
       padding: 10px;
       margin: 80px;

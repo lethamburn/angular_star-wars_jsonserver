@@ -43,6 +43,10 @@
         {
           "name": "Han Solo",
           "member": "Husband"
+        },
+        {
+          "name": "Ben Solo",
+          "member": "Son"
         }
       ]
     },
@@ -56,8 +60,51 @@
         {
           "name": "Leia Organa",
           "member": "Wife"
+        },
+        {
+          "name": "Ben Solo",
+          "member": "Son"
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Anakin Skywalker",
+      "origin": "Tattooine",
+      "role": "Jedi Knight",
+      "image": "https://i.imgur.com/JAdIrSE.jpg",
+      "family": [
+        {
+          "name": "Padme Amidala",
+          "member": "Wife"
+        },
+        {
+          "name": "Shmi Skywalker",
+          "member": "Mother"
+        },
+        {
+          "name": "Luke Skywalker",
+          "member": "Son"
+        },
+        {
+          "name": "Leia Organa",
+          "member": "Daughter"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Obi-Wan Kenobi",
+      "origin": "Stewjon",
+      "role": "Jedi Knight",
+      "image": "https://i.imgur.com/EB7kpP4.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ahsoka Tano",
+      "origin": "Shili",
+      "role": "Jedi",
+      "image": "https://i.imgur.com/GNf9Hrg.jpg"
     }
   ],
   "movies": [
