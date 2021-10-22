@@ -1,0 +1,39 @@
+@import "../../../../../styles/utilities/colors";
+@import "../../../../../styles/base/typo";
+@import "../../../../../styles/utilities/responsive";
+h5 {
+  color: $secondary-color;
+  text-transform: uppercase;
+  text-align: center;
+}
+.character-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  @include desktop {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__card {
+    border: solid 2px $blue;
+    border-radius: 10px;
+    margin: 20px;
+    h6 {
+      padding: 10px;
+      margin: 80px;
+      border-radius: 10px;
+      color: $crawl;
+      background-color: $transparent;
+      text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
+        -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+        2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+        -2px 0px 0 $primary-color, 0px -2px 0 $primary-color,
+        2px 2px 0px rgba(206, 89, 55, 0);
+    }
+  }
+
+}

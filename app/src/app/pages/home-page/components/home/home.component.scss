@@ -1,0 +1,37 @@
+@import "../../../../../styles/utilities/colors";
+@import "../../../../../styles/base/typo";
+@import "../../../../../styles/utilities/responsive";
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: auto;
+
+  img {
+    width: 70%;
+  }
+
+  h1 {
+    color: $crawl;
+  }
+  p {
+    color: $blue;
+  }
+
+  lottie-player {
+    width: 98%;
+  }
+
+  @include desktop {
+    img {
+      width: 30%;
+    }
+    lottie-player {
+      margin-left: 390px;
+      width: 50%;
+
+    }
+  }
+}

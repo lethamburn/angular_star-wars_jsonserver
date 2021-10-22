@@ -1,0 +1,140 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Luke Skywalker",
+      "origin": "Tattooine",
+      "role": "Jedi Knight",
+      "image": "https://i.imgur.com/fWFfKh2.jpg",
+      "family": [
+        {
+          "name": "Padme Amidala",
+          "member": "Mother"
+        },
+        {
+          "name": "Anakin Skywalker",
+          "member": "Father"
+        },
+        {
+          "name": "Leia Organa",
+          "member": "Sister"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Leia Organa",
+      "origin": "Alderaan",
+      "role": "General / Princess",
+      "image": "https://i.imgur.com/TaG7GYv.jpg",
+      "family": [
+        {
+          "name": "Padme Amidala",
+          "member": "Mother"
+        },
+        {
+          "name": "Anakin Skywalker",
+          "member": "Father"
+        },
+        {
+          "name": "Luke Skywalker",
+          "member": "Brother"
+        },
+        {
+          "name": "Han Solo",
+          "member": "Husband"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Han Solo",
+      "origin": "Corellia",
+      "role": "Smuggler / General",
+      "image": "https://i.imgur.com/vfBb6h8.jpg",
+      "family": [
+        {
+          "name": "Leia Organa",
+          "member": "Wife"
+        }
+      ]
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "name": "A New Hope",
+      "year": 1977,
+      "poster": "https://i.imgur.com/1shsmqk.jpg",
+      "crawl": "It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet. Pursued by the Empires sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy.",
+      "filmMakers": [
+        {
+          "name": "George Lucas",
+          "role": "Director"
+        },
+        {
+          "name": "Gary Kurtz",
+          "role": "Producer"
+        },
+        {
+          "name": "Rick McCallum",
+          "role": "Producer"
+        },
+        {
+          "name": "John Williams",
+          "role": "Score"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "The Empires Strikes Back",
+      "year": 1980,
+      "poster": "https://i.imgur.com/HJfxc8V.jpg",
+      "crawl": "It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy. Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth. The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote probes into the far reaches of space....",
+      "filmMakers": [
+        {
+          "name": "Irvin Kershner",
+          "role": "Director"
+        },
+        {
+          "name": "Gary Kurtz",
+          "role": "Producer"
+        },
+        {
+          "name": "Rick McCallum",
+          "role": "Producer"
+        },
+        {
+          "name": "John Williams",
+          "role": "Score"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Return of the Jedi",
+      "year": 1980,
+      "poster": "https://i.imgur.com/H035Aw0.jpg",
+      "crawl": "Luke Skywalker has returned to his home planet of Tatooine in an attempt to rescue his friend Han Solo from the clutches of the vile gangster Jabba the Hutt.Little does Luke know that the GALACTIC EMPIRE has secretly begun construction on a new armored space station even more powerful than the first dreaded Death Star. When completed, this ultimate weapon will spell certain doom for the small band of rebels struggling to restore freedom to the galaxy....",
+      "filmMakers": [
+        {
+          "name": "Richard Marquand",
+          "role": "Director"
+        },
+        {
+          "name": "George Lucas",
+          "role": "Producer"
+        },
+        {
+          "name": "Howard G. Kazanjian",
+          "role": "Producer"
+        },
+        {
+          "name": "John Williams",
+          "role": "Score"
+        }
+      ]
+    }
+  ]
+}

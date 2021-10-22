@@ -1,0 +1,11 @@
+<h5 class="base-h5">Characters</h5>
+<div *ngIf="characters" class="character-container">
+  <div
+    *ngFor="let character of characters"
+    routerLink="{{ character.id }}"
+    class="character-container__card"
+    style="background-image: url({{character.image}}); background-size: cover; background-position:center;"
+  >
+    <h6 class="base-h6">#{{ character.id }} - {{ character.name }}</h6>
+  </div>
+</div>

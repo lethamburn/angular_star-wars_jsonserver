@@ -1,0 +1,32 @@
+@import "../../../../styles/utilities/colors";
+@import "../../../../styles/base/_typo";
+
+.navigator-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-color;
+  background-image: url("../../../../assets/images/background.jpg");
+  height: 10vh;
+  width: 100%;
+
+  .navigator-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    &__item {
+      padding: 10px;
+      &__link{
+          text-decoration: none;
+          color: $crawl;
+          text-transform: uppercase;
+          font-weight: bold;
+
+          &:hover{
+              color: $red;
+          }
+      }
+    }
+  }
+}
