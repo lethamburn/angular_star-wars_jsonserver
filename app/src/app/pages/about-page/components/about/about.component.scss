@@ -1,0 +1,51 @@
+@import "../../../../../styles/utilities/colors";
+@import "../../../../../styles/base/typo";
+@import "../../../../../styles/utilities/responsive";
+
+h5 {
+    color: $blue;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    background-color: $background;
+    font-size: 20px;
+  }
+
+  .about-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: $crawl;
+      
+      p{
+          padding: 40px;
+          text-align: justify;
+          font-size: 12px;
+      }
+
+      &__links{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          li{
+              text-align: center;
+          }
+
+          img{
+              width: 18%;
+
+              &:hover{
+                  filter: invert(100%);
+              }
+          }
+      }
+      &__copyright{
+          color: $blue;
+          font-size: 8px;
+      }
+      lottie-player{
+          width: 70%;
+          margin-left: 80px;
+      }
+  }

@@ -31,7 +31,6 @@ export class AppComponent {
     },
   ];
   public footer: FooterInterface = {
-    /* copyright: "This site is in no way affiliated with or endorsed by Lucasfilm Limited or any of its subsidiaries, employees, or associates. Wookieepedia offers no suggestion that the work presented on this web page is 'official' or produced or sanctioned by the owner or any licensees of the aforementioned trademarks.", */
     creator: "Antonio Rosales",
     from: "Upgrade Hub"
   }

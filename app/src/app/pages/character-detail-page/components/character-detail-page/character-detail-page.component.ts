@@ -19,7 +19,7 @@ export class CharacterDetailPageComponent implements OnInit {
         .getCharacter(idCharacter)
         .subscribe((characterData) => {
           this.character = characterData;
-          console.log("PERSONAJE:", this.character)
+          console.log("CHARACTER:", this.character)
         });
     });
   }

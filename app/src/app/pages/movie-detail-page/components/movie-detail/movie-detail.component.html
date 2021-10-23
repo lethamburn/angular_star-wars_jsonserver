@@ -1,0 +1,16 @@
+<div *ngIf="movie" class="movie-container">
+  <div class="movie-container__card">
+    <h2>{{ movie.name }}</h2>
+    <img src="{{ movie.poster }}" alt="{{ movie.name }}" />
+    <p><span>Year: </span>{{ movie.year }}</p>
+    <div *ngIf="movie.filmMakers">
+      <p><span>Crew:</span></p>
+      <ul *ngFor="let member of movie.filmMakers">
+        <li>
+          {{ member.role }} - <span>{{ member.name }}</span>
+        </li>
+      </ul>
+    </div>
+    <p class="movie-crawl">{{movie.crawl}}</p>
+  </div>
+</div>

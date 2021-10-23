@@ -2,9 +2,12 @@
 @import "../../../../../styles/base/typo";
 @import "../../../../../styles/utilities/responsive";
 h5 {
-  color: $secondary-color;
+  color: $blue;
   text-transform: uppercase;
   text-align: center;
+  margin: 0;
+  background-color: $background;
+  font-size: 20px;
 }
 .character-container {
   display: flex;
@@ -41,5 +44,4 @@ h5 {
         2px 2px 0px rgba(206, 89, 55, 0);
     }
   }
-
 }

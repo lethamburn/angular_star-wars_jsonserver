@@ -1,1 +1,21 @@
-<p>about works!</p>
+<h5>About</h5>
+<div class="about-container">
+  <lottie-player
+    autoplay
+    loop
+    mode="normal"
+    src="../../../../../assets/lottie/bb8.json"
+  >
+  </lottie-player>
+  <p>{{ about.content }}</p>
+  <div>
+    <ul class="about-container__links">
+      <li *ngFor="let social of about.socialMedia">
+        <a href="{{ social.link }}"
+          ><img src="{{ social.icon }}" alt="{{ social.name }}"
+        /></a>
+      </li>
+    </ul>
+  </div>
+  <p class="base-overline about-container__copyright">{{ about.copyright }}</p>
+</div>
